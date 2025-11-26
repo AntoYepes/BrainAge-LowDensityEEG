@@ -1,0 +1,2 @@
+The EEG preprocessing logic relies on APPLEE. 
+Please request access or download the code from: Zapata S., L. M., Moreno R., J., Montoya G., E., González C., S., Aguillón N., D. F., Tobón, C. A., & Ochoa G., J. F. (2024, noviembre 6–8). APPLEE: Automated preprocessing pipeline for low-electrode encephalography. En Proceedings of the 3rd International Congress of Biomedical Engineering and Bioengineering (CIIBBI 2024). IEEE. https://doi.org/10.1109/CIIBBI63846.2024.10784577 .

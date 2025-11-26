@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Datos (NUNCA subir datos médicos a GitHub público)
+*.fif
+*.h5
+*.hdf5
+*.npy
+*.csv
+data/*
+!data/README.md
+
+# Entornos virtuales
+env/
+venv/
+.env
+
+# Logs y resultados
+resultados_*/
+logs/

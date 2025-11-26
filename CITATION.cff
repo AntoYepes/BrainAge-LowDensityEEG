@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Yepes-Quintero"
+  given-names: "Antonia"
+  orcid: "https://orcid.org/0009-0008-0753-5063"
+- family-names: "Zapata-Saldarriaga"
+  given-names: "Luisa María"
+- family-names: "Ochoa-Gómez"
+  given-names: "John Fredy"
+title: "Deep Neural Networks for Brain Age Prediction from Low density EEG"
+version: 1.0.0
+date-released: 2025-11-26
+url: "https://github.com/AntoniaYQ/BrainAge-LowDensityEEG"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Yepes-Quintero"
+    given-names: "Antonia"
+  - family-names: "Zapata-Saldarriaga"
+    given-names: "Luisa María"
+  - family-names: "Ochoa-Gómez"
+    given-names: "John Fredy"
+  title: "Deep Neural Networks for Brain Age Prediction from Low density EEG"
+  year: 2025
+  status: preprint

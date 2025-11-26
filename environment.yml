@@ -1,0 +1,36 @@
+name: brainage_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # --- Core Python & Scientific Stack ---
+  - python=3.9
+  - pip
+  - numpy>=1.21.0
+  - pandas>=1.3.0
+  - scipy>=1.7.0
+  - scikit-learn>=1.0.0
+  - matplotlib
+  - seaborn
+  - jupyterlab
+
+  # --- Data Handling & Utilities ---
+  - h5py>=3.1.0 
+  - tqdm         
+  - pywavelets   
+
+  # --- Neuroimaging Specific ---
+  - mne>=1.0.0   # Para leer los .fif
+
+  # --- Deep Learning Frameworks (Instalados vía pip para mayor compatibilidad) ---
+  - pip:
+    # PyTorch (Para el procesamiento de tensores y generación de escalogramas)
+    # Nota: Instala la versión CPU por defecto para asegurar que corra en cualquier PC.
+    - torch>=1.13.0
+    - torchvision
+
+    # TensorFlow (Para tu modelo Custom Residual CNN)
+    - tensorflow>=2.10.0
+    
+    # Otros
+    - Pillow     
