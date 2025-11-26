@@ -31,12 +31,12 @@ We recommend using Anaconda to manage the dual-framework requirements (PyTorch f
 
 ```bash
 # Clone the repository
-git clone [https://github.com/AntoniaYQ/BrainAge-LowDensityEEG.git](https://github.com/AntoniaYQ/BrainAge-LowDensityEEG.git)
+git clone [https://github.com/AntoYepes/BrainAge-LowDensityEEG.git](https://github.com/AntoYepes/BrainAge-LowDensityEEG.git)
 cd BrainAge-LowDensityEEG
 
 # Create environment
-conda create -n brainage python=3.9
-conda activate brainage
+conda env create -f environment.yml
+conda activate brainage_env
 
 # Install dependencies
 pip install -r requirements.txt
