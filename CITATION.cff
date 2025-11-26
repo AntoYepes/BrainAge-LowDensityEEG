@@ -11,7 +11,7 @@ authors:
 title: "Deep Neural Networks for Brain Age Prediction from Low density EEG"
 version: 1.0.0
 date-released: 2025-11-26
-url: "https://github.com/AntoniaYQ/BrainAge-LowDensityEEG"
+url: "https://github.com/AntoYepes/BrainAge-LowDensityEEG"
 preferred-citation:
   type: article
   authors:
